@@ -1,0 +1,55 @@
+﻿body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  padding: 20px;
+}
+.logo {
+  color: #e50914;
+  font-size: 24px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.banner {
+  background-color: #222;
+  padding: 60px 20px;
+  text-align: center;
+}
+.banner-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.banner-desc {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.banner button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.carrossel {
+  padding: 20px;
+}
+.filmes {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+.filmes img {
+  height: 120px;
+  border-radius: 4px;
+  transition: transform 0.3s;
+}
+.filmes img:hover {
+  transform: scale(1.1);
+}
